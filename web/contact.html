@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Contact</a>
+    </nav>
+
+    <main>
+        <h1>Contact Me</h1>
+        <p class="subtitle">Feel free to reach out.</p>
+
+        <section>
+            <h2>Contact Information</h2>
+            <ul>
+                <li>Email: ernstdagmil@example.com</li>
+                <li>Phone: 0934-679-3241</li>
+                <li>GitHub: github.com/ErnestDMoneky</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Send a Message</h2>
+            <form onsubmit="event.preventDefault(); alert('This is a static demo form — no backend is connected.');">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="4" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2026 Ernest Dagmil — Built with Python http.server in GitHub Codespaces
+    </footer>
+
+</body>
+</html>
