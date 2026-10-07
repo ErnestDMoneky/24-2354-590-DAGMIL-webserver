@@ -29,3 +29,5 @@ INSERT INTO courses (course_id, course_name, description, units)
     -> (001, 'BSIT', 'Bachelor of Science in Information Technology', 3),
     -> (002, 'BSCS', 'Bachelor of Science in Computer Science', 3),
     -> (003, 'BSN', 'Bachelor of Science in Nursing', 3);
+
+SELECT * FROM courses;
